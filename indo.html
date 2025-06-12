@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Savory Tales - Authentic Culinary Experience</title>
+    <title>Cita Rasa</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar" id="navbar">
         <div class="nav-container">
             <a href="#home" class="nav-brand">
-                <i class="fas fa-utensils"></i>
-                Savory Tales
+                <i class="fa-solid fa-bowl-food"></i>
+                Cita Rasa
             </a>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
@@ -26,17 +27,17 @@
     <section id="home" class="section hero-section">
         <div class="container">
             <div class="hero-content fade-in">
+                <div class="hero-contentlogobrand">
+                <h1 class="brand-name">Cita Rasa</h1>
                 <i class="fas fa-bowl-food brand-logo"></i>
-                <h1 class="brand">Savory Tales</h1>
-                <p class="slogan">"Where Every Bite Tells a Story"</p>
+                </div>
+                <p class="slogan">"Tiap Gigitan Menceritakan Sebuah Cerita"</p>
                 <p class="deskripsi">
-                    Experience the authentic taste of traditional cuisine crafted with love and the finest natural ingredients. 
-                    Our culinary journey brings you time-honored recipes that have been passed down through generations, 
-                    creating unforgettable flavors that warm the heart and soul.
+                    Selamat datang di Cita Rasa, tempat di mana setiap resep memiliki cerita. Kami menyajikan inspirasi kuliner dari berbagai belahan dunia untuk melengkapi perjalanan rasa Anda.
                 </p>
                 <a href="#products" class="cta-button">
                     <i class="fas fa-arrow-down"></i>
-                    Explore Our Products
+                     Our Products
                 </a>
             </div>
         </div>
@@ -44,42 +45,43 @@
 
     <section id="products" class="section products-section">
         <div class="container">
-            <h2 class="section-title fade-in">Our Featured Products</h2>
+            <h2 class="section-title fade-in">Our Best Selling Products</h2>
             <div class="products-grid">
-                <div class="product-card fade-in">
-                    <div class="product-image">
-                        <i class="fas fa-hamburger"></i>
-                    </div>
-                    <h3 class="product-name">Heritage Burger</h3>
-                    <p class="product-description">
-                        A classic handcrafted burger made with premium beef, fresh vegetables, and our signature sauce.
-                    </p>
-                    <div class="harga">$15.99</div>
-                    <button class="order-button">Order Now</button>
-                </div>
-
                 <div class="product-card fade-in">
                     <div class="product-image">
                         <i class="fas fa-mug-hot"></i>
                     </div>
-                    <h3 class="product-name">Traditional Soup</h3>
-                    <p class="product-description">
-                        Hearty homemade soup prepared with organic ingredients and traditional spices for ultimate comfort.
+                    <h3 class="product-name">Latte</h3>
+                    <p class="deskripsi-produk">
+                        Latte yang creamy dan lezat, dibuat dengan espresso segar dan susu berkualitas tinggi, sempurna untuk memulai hari Anda.
                     </p>
-                    <div class="harga">$12.50</div>
-                    <button class="order-button">Order Now</button>
+                    <div class="harga">Rp. 7.000</div>
+                    <button class="order-button">Order Sekarang</button>
                 </div>
 
                 <div class="product-card fade-in">
                     <div class="product-image">
-                        <i class="fas fa-pizza-slice"></i>
+                        <i class="fa-solid fa-bowl-rice"></i>
                     </div>
-                    <h3 class="product-name">Artisan Pizza</h3>
-                    <p class="product-description">
-                        Wood-fired pizza with fresh mozzarella, seasonal toppings, and our handmade dough.
+                    <h3 class="product-name">Nasi Goreng</h3>
+                    <p class="deskripsi-produk">
+                        Nasi goreng spesial dengan bumbu rahasia, sayuran segar, porsi yang besar dengan banyak pilihan protein seperti ayam, udang, atau tofu.
                     </p>
-                    <div class="harga">$18.75</div>
-                    <button class="order-button">Order Now</button>
+                    <div class="harga">Rp. 15.000</div>
+                    <button class="order-button">Order Sekarang</button>
+                </div>
+
+                <div class="product-card fade-in">
+                    <div class="product-image">
+                       <span class="material-icons" style="font-size: 3rem;">ramen_dining</span>
+
+                    </div>
+                    <h3 class="product-name">Ramen</h3>
+                    <p class="deskripsi-produk">
+                        Mie goreng lezat dengan bumbu khas, sayuran segar, porsi yang besar dan banyak pilihan protein seperti ayam, udang, atau tofu.
+                    </p>
+                    <div class="harga">Rp. 15.000</div>
+                    <button class="order-button">Order Sekarang</button>
                 </div>
             </div>
         </div>
@@ -87,9 +89,10 @@
 
     <section id="reviews" class="section reviews-section">
         <div class="container">
-            <h2 class="thank-you fade-in">Thank You for Visiting!</h2>
+            <h2 class="thank-you fade-in">Terima kasih sudah mampir di website kami!</h2>
             <p class="fade-in" style="font-size: 1.2rem; margin-bottom: 2rem;">
-                We appreciate your interest in our culinary journey. Share your thoughts with us!
+                Berikan kami ulasan Anda tentang pengalaman Anda dengan produk kami.
+                Kami sangat menghargai setiap masukan yang Anda berikan untuk meningkatkan kualitas layanan kami.
             </p>
             
             <form class="review-form fade-in">
